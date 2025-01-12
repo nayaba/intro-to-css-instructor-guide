@@ -38,6 +38,11 @@ By the end of this module, students will be able to:
 
 ### **CSS Fundamentals (10 min)**
 - ✨ **Diagram - [discuss syntax](https://raw.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-css/main/fundamentals/assets/css-syntax.png?token=AAALP5NLYRS2YUVL4DXX5NTHRTD44):** Break down a CSS rule (selector, property, value).
+    - **1)** Selectors: Used to target the element(s) to be styled and range from simple to incredibly complex.
+    - **2)** Properties are written in lower-kebab-case
+    - **3)** Value: The valid values that can be applied to a property are specific to that property.
+    - **4)** Declaration: The combination of a property and value, separated by a colon and ending with a semi-colon, makes a declaration.
+    - **5)** Rule: A selector and all of its associated declarations.
 - ✨ **Selectors:** Explain element selectors and their specificity.
 - ✨ **Comments:** Show how to add single-line and multi-line comments.
 

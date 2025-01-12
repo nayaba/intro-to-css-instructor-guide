@@ -267,7 +267,8 @@ The one listed later in the HTML `<head>`.
           background-color: #7289DA;
           color: #FFFFFF;
         }
-    ```
+      ```
+      
 - Example CSS WITH variables
       - ```css
   
@@ -300,7 +301,7 @@ The one listed later in the HTML `<head>`.
         }
         ```
 
-- ✨ Explain inheritance and reusability with variables.
+- ✨ Here, we can see that to apply the variable in our CSS, we use a special function in CSS: `var()` and write the variable name inside of it.
 
 **🧑‍💻 Activity:**
 - Define a `--primary-color` variable and use it across multiple rules.

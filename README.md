@@ -243,6 +243,63 @@ The one listed later in the HTML `<head>`.
 
 ### **CSS Variables (10 min)**
 - ✨ Define and use CSS variables.
+- Example CSS WITHOUT variables
+    - ```css
+      h1 {
+          color: #7289DA;
+        }
+        
+        a {
+          background-color: #7289DA;
+          color: #FFFFFF;
+        }
+        
+        button {
+          background-color: #7289DA;
+          color: #FFFFFF;
+        }
+        
+        #comments {
+          border: 2px solid #7289DA;
+        }
+        
+        footer {
+          background-color: #7289DA;
+          color: #FFFFFF;
+        }
+    ```
+- Example CSS WITH variables
+      - ```css
+  
+      /* MAKE VARIABLE */
+          body {
+          --brand-color: #7289DA;
+        }
+      /* USE IT */
+        h1 {
+          color: var(--brand-color);
+        }
+        
+        a {
+          background-color: var(--brand-color);
+          color: #FFFFFF;
+        }
+        
+        button {
+          background-color: var(--brand-color);
+          color: #FFFFFF;
+        }
+        
+        #comments {
+          border: 2px solid var(--brand-color);
+        }
+        
+        footer {
+          background-color: var(--brand-color);
+          color: #FFFFFF;
+        }
+        ```
+
 - ✨ Explain inheritance and reusability with variables.
 
 **🧑‍💻 Activity:**

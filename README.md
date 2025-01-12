@@ -26,16 +26,18 @@ By the end of this module, students will be able to:
 
 ### **Concepts (2 min)**
 - Overview of CSS: What it is and its purpose.
+    - CSS controls a web page's layout, colors, fonts, and other visual aspects.
 - Analogy: CSS is like decorating a house, where HTML provides the structure.
 - Explain the separation of content (HTML) and presentation (CSS).
-
+    - CSS enables us to separate a document's structure & content (HTML) from its presentation (CSS).
+  
 **Activity:**
 - Demonstrate adding a simple CSS rule to change the text color of an `<h1>` tag to blue.
 
 ---
 
 ### **CSS Fundamentals (10 min)**
-- ✨ **Syntax:** Break down a CSS rule (selector, property, value).
+- ✨ **Diagram - [discuss syntax](https://raw.git.generalassemb.ly/modular-curriculum-all-courses/intro-to-css/main/fundamentals/assets/css-syntax.png?token=AAALP5NLYRS2YUVL4DXX5NTHRTD44):** Break down a CSS rule (selector, property, value).
 - ✨ **Selectors:** Explain element selectors and their specificity.
 - ✨ **Comments:** Show how to add single-line and multi-line comments.
 

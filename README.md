@@ -43,8 +43,13 @@ By the end of this module, students will be able to:
     - **3)** Value: The valid values that can be applied to a property are specific to that property.
     - **4)** Declaration: The combination of a property and value, separated by a colon and ending with a semi-colon, makes a declaration.
     - **5)** Rule: A selector and all of its associated declarations.
-- ✨ **Selectors:** Explain element selectors and their specificity.
+- ✨ **Selectors:** CSS element selectors target every instance of a specific HTML element
 - ✨ **Comments:** Show how to add single-line and multi-line comments.
+- ```css
+  p {
+  color: purple; /*All p elements will now have purple text!*/
+    }
+  ```
 
 **🧑‍💻 Activity:**
 - Add CSS to change text color, font size, and text alignment for an `<h1>` element.

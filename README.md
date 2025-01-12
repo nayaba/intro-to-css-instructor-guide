@@ -68,7 +68,7 @@ Use `/* comment */`.
 
 ### **Box Model (15 min)**
 - ✨ Explain the four parts of the box model: content, padding, border, margin.
-- ✨ **Diagrams:** Visualize the box model and its impact on layout.
+- ✨ **Diagram - [Everything is a box](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-css/blob/main/box-model/assets/box-model.png):** Visualize the box model and its impact on layout.
 - ✨ Demonstrate padding, border, and margin properties.
 
 **🧑‍💻 Activity:**

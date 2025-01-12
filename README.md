@@ -96,7 +96,14 @@ Use `/* comment */`.
           border-color: red;
         }
       ```
-
+- ✨ Margin is the space between the border and other elements.
+    - ```css
+         p {
+          /* all four sides */
+          margin: 2px;
+        }
+      ```
+    - `margin-top`, `margin-right`, and so on are also available.
 **🧑‍💻 Activity:**
 - Style a `<div>` to explore padding, border, and margin effects.
 

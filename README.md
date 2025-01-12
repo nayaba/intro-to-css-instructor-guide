@@ -270,8 +270,7 @@ The one listed later in the HTML `<head>`.
       ```
       
 - Example CSS WITH variables
-      - ```css
-  
+  - ```css
       /* MAKE VARIABLE */
           body {
           --brand-color: #7289DA;

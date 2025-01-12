@@ -120,13 +120,39 @@ The space between the border of an element and adjacent elements.
 ---
 
 ### **Common Properties (10 min)**
-- ✨ Font properties: `font-family`, `font-size`, `font-style`, `text-align`.
-- ✨ Color properties: Hex, RGB, and named colors.
-- ✨ Background colors and text styling.
+CSS properties are used to control the appearance and behavior of HTML elements. There are many different CSS properties, but some of the most common ones are font properties, color, and background.
 
-**🧑‍💻 Activity:**
-- Style text with font and color properties.
-- Experiment with `background-color` and `text-align`.
+- ✨ Font properties: `font-family`, `font-size`, `font-weight`, `font-style`, `text-align`.
+    - ```css
+      h2 {
+          font-family: Arial, sans-serif;
+          font-size: 28px;
+          font-weight: bold;
+          font-style: italic;
+          text-align: center;
+        }
+      ```
+
+- ✨ Color properties: Hex (`#FF0000`), RGB `rgb(255, 0, 0)`, and named colors (`red`) - all 3 of those will give us the same color!
+    - There are only [140 predefined color keywords](http://web.simmons.edu/~grovesd/comm244/notes/week3/css3-color-names) in CSS, but over 16 million possible hex/RGB color combinations exist.
+
+
+**🎓 You Do (1):**
+Take a few minutes and visit one of the following resources and learn more about a couple of properties of your choosing:
+
+- [CSS-Tricks](https://css-tricks.com/almanac/properties/) - one of the best sites for all things CSS
+- [codrops](https://tympanus.net/codrops/css_reference/#section_css-property)
+
+After you've learned about that property, apply it in your code.
+
+**🎓 You Do (2):**
+
+Now that you've learned about some common properties, let's get some more practice.
+
+- Set the margin on `<body>` element to 0 on all four sides. This is a common reset we do on all our pages because most browsers give a margin to the body element, which we usually do not want.
+- Also, give the background of the `<body>` element a color of `lightgray`.
+- Set the margin on the `<ul>` elements to 0 on all four sides.
+- Set the text color of all `<div>` elements to `blue`.
 
 **🙋‍♀️ Student Picker Questions:**
 <details>

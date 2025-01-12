@@ -67,9 +67,35 @@ Use `/* comment */`.
 ---
 
 ### **Box Model (15 min)**
-- ✨ Explain the four parts of the box model: content, padding, border, margin.
 - ✨ **Diagram - [Everything is a box](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-css/blob/main/box-model/assets/box-model.png):** Visualize the box model and its impact on layout.
-- ✨ Demonstrate padding, border, and margin properties.
+- ✨ Explain the four parts of the box model: content, padding, border, margin.
+- ✨ [Padding](https://git.generalassemb.ly/modular-curriculum-all-courses/intro-to-css/blob/main/box-model/assets/button.png) is the space between the content of an element and its border.
+    - ```css
+      p {
+          /* all four sides */
+          padding: 2px;
+        }
+
+      p {
+          padding-bottom: 1px;
+          padding-left: 2px;
+          padding-right: 3px;
+          padding-top: 4px;
+        }
+      ```
+
+- ✨ Border - the area (typically a line) surrounding the padding. Borders are useful for separating elements from each other
+    - ```css
+      p {
+          border: 3px solid red;
+        }
+      /* we could break this into three lines */
+      p {
+          border-width: 3px;
+          border-style: solid;
+          border-color: red;
+        }
+      ```
 
 **🧑‍💻 Activity:**
 - Style a `<div>` to explore padding, border, and margin effects.

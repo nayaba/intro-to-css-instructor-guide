@@ -173,19 +173,26 @@ Specifies the font for the text.
           color: red;
           font-weight: bold;
         }
+      
+      #about {
+          font-style: italic;
+          color: hotpink;
+        }
       ```
-**🎓 You Do (1):**
+- ✨ Demonstrate combinator selectors (e.g., descendant selector). The most common combinator is the descendant selector, but there are many more.
+
+We use the descendant selector to target elements nested within another element, ***regardless of the depth of the nesting***. Note that this rule does not target `<div>` elements, only `<p>` elements. The last item in the combinator receives the styling.
+    - ```css
+    /* This will match all <p> tags nested anywhere within an <div> tag */
+    div p { ... }
+     ```
+     
+**🎓 You Do :**
 Target the elements with the class name `super-cool`, and give them a border that is solid, 2px wide, and pink in color.
 
 Note how the styling from both the `.important` and the `.super-cool` rules are applied to the div with both class names! What happens when you use conflicting declarations, like adding a `color: blue;` to the `.super-cool` rule?
 
 Play around with the order of these rules in your CSS document, and try switching the order of the class names to `"super-cool important"` in the `div` element's `class` attribute. When is order important? When is it not? Explore these mechanics a bit on your own.
-
-- ✨ Demonstrate combinator selectors (e.g., descendant selector).
-
-**🧑‍💻 Activity:**
-- Use class and ID selectors to style specific elements.
-- Experiment with descendant selectors.
 
 **🙋‍♀️ Student Picker Questions:**
 <details>

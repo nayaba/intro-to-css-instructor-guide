@@ -208,7 +208,23 @@ Class selectors can be reused; ID selectors must be unique.
 
 ### **Multiple Stylesheets (5 min)**
 - ✨ Discuss the benefits of organizing CSS into multiple files.
+    - When creating larger projects - especially ones with multiple pages - our CSS can quickly get messy if we only use one stylesheet.
+    - We can create a separate stylesheet for each page or section of our web app, allowing us to keep things tidy.
+- To use multiple stylesheets, add a `<link>` element to the `<head>` section of your HTML code for each stylesheet that you want to use.
+    - ```html
+      <!DOCTYPE html>
+        <html>
+        <head>
+          <link rel="stylesheet" href="global.css">
+          <link rel="stylesheet" href="store-page.css">
+        </head>
+        <body>
+          <!-- body content -->
+        </body>
+        </html>
+      ```
 - ✨ Explain the order of precedence when loading stylesheets.
+    - When a browser loads multiple stylesheets for a web page, it will apply the styles in the order that the stylesheets are linked in the <head> section of the HTML code. This means that the styles in the later stylesheets will override the styles in the earlier stylesheets.
 
 **🧑‍💻 Activity:**
 - Add a second stylesheet to handle specific styles and observe precedence.
